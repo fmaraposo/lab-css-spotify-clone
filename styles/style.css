@@ -6,3 +6,232 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    margin-top: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2.5%;
+}
+
+.top-div {
+    width: 90%;
+    margin-bottom: 10%;
+}
+
+.spotify-logo {
+    width: 20%;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+}
+
+.nav-menu ul {
+    display: flex;
+    padding-right: 40px;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.hero {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 100px;
+    color: white;
+    margin-bottom: 2.5%;
+}
+
+.hero p {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: light;
+    line-height: 100px;
+}
+
+.middle-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-page h2 {
+    font-size: 70px;
+    border-bottom: #00B172 solid 7px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.middle-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-images img {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.million-songs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.million-songs img {
+    width: 200px;
+}
+
+.million-songs h4 {
+    font-size: 40px;
+    color: #00B172;
+    margin-bottom: 20px;
+}
+
+.million-songs p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.hd-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.hd-icon img {
+    width: 200px;
+}
+
+.hd-icon h4 {
+    font-size: 40px;
+    color: #00B172;
+    margin-bottom: 20px;
+}
+
+.hd-icon p {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.stream-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.stream-icon img {
+    width: 200px;
+}
+
+.stream-icon h4 {
+    font-size: 40px;
+    color: #00B172;
+    margin-bottom: 20px;
+}
+
+.stream-icon p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.bottom-page {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    color: #FFF;
+    padding-left: 100px;
+    margin-right: 40px;
+}
+
+.bottom-title h2 {
+    margin-bottom: 50px;
+    border-bottom: 5px solid white;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.bottom-text {
+    width: 500px;
+}
+
+.bottom-text h4 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.bottom-text p {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.bottom-page-image img {
+    width: 300px;
+    height: 300px;
+}
+
+.bottom-page-kanye img {
+    height: 800px;
+    padding: 100px;
+}
+
+
+
